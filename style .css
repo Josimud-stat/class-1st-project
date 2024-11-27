@@ -4,23 +4,24 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+body{
+  max-width: 1200px;
+  margin-left: 10px;
+}
 header{
  /* padding: 2rem 9%;*/
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 header nav{
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  
 }
 header h1{
-  font-size: 3rem;
-  padding: 1.5rem;
+  font-size: 2.6rem;
+  padding: .8rem;
   color: #ff00ff;
   font-weight: bolder;
 }
@@ -28,7 +29,7 @@ header a{
   margin: 1.5rem;
   padding: 1.5rem;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #0000ff;
   font-weight: bolder;
 }
@@ -47,8 +48,8 @@ color: tomato;
   margin-left: 3rem;
 }
 .ins-h{
-  font-size: 2.5rem; 
- padding: 2rem;
+  font-size: 2rem; 
+ padding: 1.2rem;
 }
 
 .first-p{
@@ -58,31 +59,30 @@ color: tomato;
 }
 .first-one img{
   width: 50%;
-  height: 100%;
+  /*height: 100%;*/
   margin-left: 4rem;
   font-size: 5rem;
+}
+.just-one{
+  margin-top: 40px;
 }
 .btn{
   background: #0000ff;  
   margin-top: 1.2rem;
   padding: 1rem 2rem;
-  font-size: 1.5rem ;
+  font-size: 1.5rem;
   color: #fff;
   border-radius: 1.5rem;
   border: none;
   transition: 0.2s linear;
   margin-bottom: 1rem;
+  margin-left: 1.2rem;
 }
 
 .btn:hover{
   background: #ff00ff;
   color: black;
 }
-
-.second-sec{
- 
-}
-
 .second-div{
  
  margin: 0 auto;
@@ -96,7 +96,7 @@ margin-bottom: 1rem;
 font-weight: bolder;
 }
 .first-h-u{
-  background-color: #ff00ff;
+  background-color: #E55473;
   width: 70%;
   margin:  0 auto;
   color: #000000;
@@ -115,17 +115,13 @@ font-weight: bolder;
 
 .third-div{
   display: flex;
-  width: 100%;
   justify-content: center;
   margin: 0 auto;
-  
 
 }
-
-img{
-  
-  padding: 2rem;
-  margin-left: 3rem;
+.three{
+  height: 360px;
+  margin-left: 20px;
 }
 .extra-div{
   text-align: center;
@@ -136,38 +132,42 @@ img{
   margin-top: 1rem;
 }
 .first-img{
-  
-  background: #A72162;
+  margin-top: 2rem;
+  background: #F2dEE7;
   border-radius: 48% 48% 0% 0%;
   width: 28%;
 }
 .second-img{
-  
+  margin-top: 2rem;
   margin: 0 1rem;
-  background-color: #0597a0;
+  background-color: #F2F2F9;
   border-radius: 48% 48% 0% 0%;
   width: 28%;
 }
 .third-img{
-  
-  background-color: #477d11;
+  margin-top: 2rem;
+  background-color: #E3EBBD;
   border-radius: 48% 48% 0% 0%;
   width: 28%;
 }
-.fourth-div{
+.service-sec{
   display: flex;
-  width: 70%;
   justify-content: space-evenly;
-  margin: 2rem auto;
   background-color: gray;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
   border-radius: 1rem;
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
 
 .delivery{
   font-size: 1rem;
   padding: 1rem;
+}
+.man{
+  margin-right: 20px;
+}
+.two{
+  margin-left: 50px;
 }
 .fresh{
   font-size: 1rem;
@@ -177,18 +177,21 @@ img{
   font-size: 1rem;
   padding: 1rem;
 }
+/*.third-sec{
+  display: flex;
+
+}*/
 .third-sec{
   display: flex;
 
 }
 .fifth-div{
-  width: 55%;
-  margin-left: 5rem;
-  padding: 2rem;
-  margin-top: 8rem;
+  width: 65%;
+  text-align: center;
 }
 .flower1{
-  width: 45%;
+  width: 35%;
+
 }
 .off{
   display: flex;
@@ -230,43 +233,39 @@ img{
   padding-bottom: 1rem;
   border-radius: 1rem;
 }
+.insta{
+  margin-bottom: 3rem;
+}
 .images{
-  width: 60%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /*grid-template-columns: auto auto auto;*/
-  padding: 2rem;
-  margin-left: 2rem;
+  grid-template-columns: repeat(3,1fr);
+  margin-bottom: 60px;
+  row-gap: 20px;
 }
 .images .img6{
-  border-radius: 3rem;
+  
 }
 .last-div{
 background-image: url(Rectangle\ 9.png);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-margin: 0 auto;
-width: 80%;
-height: 25rem;
-margin-bottom: 5rem;
-padding: 10rem;
+border-radius: 10px;
 text-align: center;
-border-radius: 1rem;
-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+margin-bottom: 5rem;
+padding: 5rem;
 }
 .last-h{
-  font-size: 2.3rem;
-  }
+margin-bottom: 1.5rem;
+  } 
   .last-p{
-    margin-left: 3rem;
-    font-size: 1.2rem;
-    margin-right: 3rem;
+    
   }
 .inp{
-  padding: 1rem 12rem;
+  padding: 1rem 14rem;
   border: none;
   box-shadow: .0rem .1rem .2rem;
+  margin-bottom: 5rem;
 }
 #btn{
 padding: 1rem 2rem;
@@ -274,6 +273,7 @@ font-size: 1rem;
 background: rgb(248, 81, 51);
 border-radius: .8rem;
 border: none;
+margin-top: 1.5rem;
 }
 #btn:hover{
   background: #0000ff;
@@ -288,10 +288,15 @@ footer{
 .footer-h{
 padding: .8rem;
 color: pink;
+font-size: 2.5rem;
 }
 .footer-p{
   padding: .8rem;
 }
 .footer-l{
-  padding: .8rem;
-}
+  padding: .8rem
+  }
+  .shop{
+    color: #ff00ff;
+    font-size: 2.6rem;
+  }
