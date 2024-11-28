@@ -88,6 +88,7 @@ color: tomato;
  margin: 0 auto;
  text-align: center;
  padding: 3rem;
+ margin-top: 5rem;
 }
 h3{
 text-align: center;
@@ -96,7 +97,7 @@ margin-bottom: 1rem;
 font-weight: bolder;
 }
 .first-h-u{
-  background-color: #E55473;
+  background-color: #F2F2F9;
   width: 70%;
   margin:  0 auto;
   color: #000000;
@@ -121,7 +122,10 @@ font-weight: bolder;
 }
 .three{
   height: 360px;
-  margin-left: 20px;
+  margin-left: 50px;
+}
+.three-mid{
+  margin-top: 30px;
 }
 .extra-div{
   text-align: center;
@@ -142,7 +146,7 @@ font-weight: bolder;
   margin: 0 1rem;
   background-color: #F2F2F9;
   border-radius: 48% 48% 0% 0%;
-  width: 28%;
+  width: 28%;  
 }
 .third-img{
   margin-top: 2rem;
@@ -153,7 +157,7 @@ font-weight: bolder;
 .service-sec{
   display: flex;
   justify-content: space-evenly;
-  background-color: gray;
+  background-color: #F2dEE7;
   border-radius: 1rem;
   margin-top: 80px;
   margin-bottom: 50px;
@@ -167,7 +171,7 @@ font-weight: bolder;
   margin-right: 20px;
 }
 .two{
-  margin-left: 50px;
+  margin-left: 60px;
 }
 .fresh{
   font-size: 1rem;
@@ -188,6 +192,7 @@ font-weight: bolder;
 .fifth-div{
   width: 65%;
   text-align: center;
+  margin-top: 6rem;
 }
 .flower1{
   width: 35%;
@@ -195,6 +200,9 @@ font-weight: bolder;
 }
 .off{
   display: flex;
+}
+.second-pera{
+  padding: 2rem 4rem;
 }
 .of{
   font-size: 2.5rem;
@@ -227,8 +235,8 @@ font-weight: bolder;
 }
 .ins-u{
   font-size: 2.5rem;
-  margin-bottom: 3rem;
-  background: orange;
+  margin-bottom: 2rem;
+  background: #F2dEE7;
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-radius: 1rem;
