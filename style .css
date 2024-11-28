@@ -5,7 +5,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-  max-width: 1200px;
+  max-width: 1440px;
   margin-left: 10px;
 }
 header{
@@ -16,8 +16,8 @@ header{
 header nav{
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  
+  justify-content: space-between;
+  margin: 0 100px;
 }
 header h1{
   font-size: 2.6rem;
@@ -122,10 +122,11 @@ font-weight: bolder;
 }
 .three{
   height: 360px;
-  margin-left: 50px;
+  margin-left: 75px;
 }
 .three-mid{
   margin-top: 30px;
+  margin-left: 20px;
 }
 .extra-div{
   text-align: center;
@@ -135,24 +136,20 @@ font-weight: bolder;
   justify-content: space-around;
   margin-top: 1rem;
 }
-.first-img{
+.first-img, .second-img, .third-img{
   margin-top: 2rem;
   background: #F2dEE7;
   border-radius: 48% 48% 0% 0%;
-  width: 28%;
+  width: 400px;
+  height: 400px;
 }
 .second-img{
-  margin-top: 2rem;
-  margin: 0 1rem;
-  background-color: #F2F2F9;
-  border-radius: 48% 48% 0% 0%;
-  width: 28%;  
+   background-color: #F2F2F9;  
+   margin-left: 20px;
+   margin-right: 20px;
 }
 .third-img{
-  margin-top: 2rem;
   background-color: #E3EBBD;
-  border-radius: 48% 48% 0% 0%;
-  width: 28%;
 }
 .service-sec{
   display: flex;
@@ -193,10 +190,11 @@ font-weight: bolder;
   width: 65%;
   text-align: center;
   margin-top: 6rem;
+  margin-left: 6rem;
 }
 .flower1{
   width: 35%;
-
+  margin-left: 5rem;
 }
 .off{
   display: flex;
@@ -248,7 +246,8 @@ font-weight: bolder;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   margin-bottom: 60px;
-  row-gap: 20px;
+  row-gap: 30px;
+  margin-left: 6rem;
 }
 .images .img6{
   
