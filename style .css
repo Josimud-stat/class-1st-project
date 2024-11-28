@@ -7,6 +7,8 @@
 body{
   max-width: 1440px;
   margin-left: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 header{
  /* padding: 2rem 9%;*/
@@ -72,7 +74,7 @@ color: tomato;
   padding: 1rem 2rem;
   font-size: 1.5rem;
   color: #fff;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   border: none;
   transition: 0.2s linear;
   margin-bottom: 1rem;
@@ -243,11 +245,16 @@ font-weight: bolder;
   margin-bottom: 3rem;
 }
 .images{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  /*grid-template-columns: repeat(3,1fr);*/
+  grid-template-columns: auto auto auto;
   margin-bottom: 60px;
   row-gap: 30px;
-  margin-left: 6rem;
+  column-gap: 30px;
+  margin-left: 5rem;
 }
 .images .img6{
   
@@ -269,7 +276,7 @@ margin-bottom: 1.5rem;
     
   }
 .inp{
-  padding: 1rem 14rem;
+  padding: 1rem 20%;
   border: none;
   box-shadow: .0rem .1rem .2rem;
   margin-bottom: 5rem;
