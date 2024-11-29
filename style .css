@@ -8,20 +8,20 @@ body{
   max-width: 1440px;
   margin-left: 10px;
   flex-wrap: wrap;
-  justify-content: center;
+  /*justify-content: center;*/
 }
 header{
  /* padding: 2rem 9%;*/
   display: flex;
-  align-items: center;
+ /* align-items: center;*/
+ background: #ffd4cf;
 }
 header nav{
+  width: 1440px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 100px;
 }
 header h1{
+  margin-left: 6rem;
   font-size: 2.6rem;
   padding: .8rem;
   color: #ff00ff;
@@ -34,6 +34,12 @@ header a{
   font-size: 1.2rem;
   color: #0000ff;
   font-weight: bolder;
+  margin-bottom: .5rem;
+}
+.start-2{
+  align-items: right;
+  margin-left: 200px;
+  margin-top: 1.5rem;
 }
 
 header a:hover{
@@ -154,11 +160,13 @@ font-weight: bolder;
   background-color: #E3EBBD;
 }
 .service-sec{
+  width: 90%;
   display: flex;
   justify-content: space-evenly;
   background-color: #F2dEE7;
   border-radius: 1rem;
   margin-top: 80px;
+  margin-left: 4rem;
   margin-bottom: 50px;
 }
 
@@ -254,7 +262,7 @@ font-weight: bolder;
   margin-bottom: 60px;
   row-gap: 30px;
   column-gap: 30px;
-  margin-left: 5rem;
+  margin-left: 3rem;
 }
 .images .img6{
   
