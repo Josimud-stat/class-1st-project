@@ -24,11 +24,12 @@ header{
   padding: 20px 10%;
   
   }
-  .logo{
+  header .logo{
     max-width: 120px;
     height: auto;
     font-size: 3rem;
     font-weight: bolder;
+    color: #ff00ff;
   }
   .navbar{
     display: flex;
@@ -104,7 +105,9 @@ header{
   margin-bottom: 1rem;
   margin-left: 1.2rem;
 }
-
+.span{
+  color: #EE1C47;
+}
 .btn:hover{
   background: #ff00ff;
   color: black;
@@ -271,6 +274,7 @@ font-weight: bolder;
   margin-bottom: 3rem;
 }
 .images{
+  position: relative;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -278,14 +282,32 @@ font-weight: bolder;
   /*grid-template-columns: repeat(3,1fr);*/
   grid-template-columns: auto auto auto;
   margin-bottom: 60px;
-  row-gap: 30px;
-  column-gap: 30px;
+  row-gap: 50px;
+  column-gap: 50px;
   margin-left: 3rem;
   transform: scale(0.9);
 }
-.images .img6{
-  
+.images h4{
+color: #ff00ff;
+text-align: center;
+font-size: 1rem;
+transition: .42s ease;
+cursor: pointer;
 }
+.images h4:hover{
+  color: orange;
+}
+.images .first-flower{
+  position: absolute;
+  top: 20px;
+  color: #EE1C47; 
+}
+
+.image-h2{
+  text-align: center;
+  color: #2c2c2c;
+}
+
 .last-div{
 background-image: url(Rectangle\ 9.png);
 background-repeat: no-repeat;
