@@ -22,14 +22,15 @@ header{
   align-items: center;
   justify-content:space-between ;
   padding: 20px 10%;
-  
+  background-color: #ffd4cf;
   }
   header .logo{
     max-width: 120px;
     height: auto;
     font-size: 3rem;
     font-weight: bolder;
-    color: #ff00ff;
+    color: #2c2c2c;
+
   }
   .navbar{
     display: flex;
@@ -68,6 +69,7 @@ header{
   text-transform: capitalize;
   background: #ffd4cf;
   /* height: 100vh; */
+  height: 85vh;
 }
 .first{
  width: 50%;
@@ -126,7 +128,6 @@ margin-bottom: 1rem;
 font-weight: bolder;
 }
 .first-h-u{
-  background-color: #F2F2F9;
   width: 70%;
   margin:  0 auto;
   color: #000000;
@@ -227,22 +228,14 @@ font-weight: bolder;
   width: 35%;
   margin-left: 5rem;
 }
-.off{
-  display: flex;
-}
 .second-pera{
   padding: 2rem 4rem;
 }
-.of{
-  font-size: 2.5rem;
-  margin-top: 2rem;
-  color: #ff00ff;
-  font-weight: bolder;
+.ins-h{
+  margin-bottom: -16px;
 }
 .btn1{
-  margin-top: 2rem;
   font-size: 1.3rem;
-  margin-left: 8rem;
   padding: 1rem 2rem;
   background: #ff00ff;
   border: none;
@@ -265,7 +258,6 @@ font-weight: bolder;
 .ins-u{
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  background: #F2dEE7;
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-radius: 1rem;
