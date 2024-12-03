@@ -10,6 +10,7 @@ body{
   max-width: 1440px;
   margin-left: 10px;
   flex-wrap: wrap;
+  margin: 0 auto;
   /*justify-content: center;*/
 }
 header{
@@ -30,12 +31,10 @@ header{
     font-size: 3rem;
     font-weight: bolder;
     color: #2c2c2c;
-
   }
   .navbar{
     display: flex;
   }
-
   .navbar a{
     color: #2c2c2c;
     font-size: 1.2rem;
@@ -69,7 +68,7 @@ header{
   text-transform: capitalize;
   background: #ffd4cf;
   /* height: 100vh; */
-  height: 85vh;
+  height: auto;
 }
 .first{
  width: 50%;
@@ -77,11 +76,13 @@ header{
   margin-left: 3rem;
 }
 .ins-h{
+  margin-top: 3rem;
   font-size: 2rem; 
  padding: 1.2rem;
 }
 
 .first-p{
+  margin-top: 2rem;
   font-size: 1.5rem;
   padding: 1.3rem;
   font-family:Arial, Helvetica, sans-serif;
@@ -104,7 +105,7 @@ header{
   border-radius: 1rem;
   border: none;
   transition: 0.2s linear;
-  margin-bottom: 1rem;
+  margin: 3rem 10px;
   margin-left: 1.2rem;
 }
 .span{
@@ -181,6 +182,20 @@ font-weight: bolder;
 .third-img{
   background-color: #E3EBBD;
 }
+.first-img a{
+max-width: 300px;
+display: block;
+margin-top: 40px;
+margin-left: 30%;
+}
+.second-img a{
+  margin-left: 30%;
+}
+.third-img a{
+  display: block;
+  margin-top: 40px;
+  margin-left: 30%;
+}
 .service-sec{
   width: 90%;
   display: flex;
@@ -188,8 +203,9 @@ font-weight: bolder;
   background-color: #F2dEE7;
   border-radius: 1rem;
   margin-top: 80px;
+  padding: 2rem;
   margin-left: 4rem;
-  margin-bottom: 50px;
+  margin-bottom: 50px;;
 }
 
 .delivery{
@@ -271,8 +287,7 @@ font-weight: bolder;
   justify-content: center;
   flex-wrap: wrap;
   display: grid;
-  /*grid-template-columns: repeat(3,1fr);*/
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3,1fr);
   margin-bottom: 60px;
   row-gap: 50px;
   column-gap: 50px;
@@ -285,6 +300,7 @@ text-align: center;
 font-size: 1rem;
 transition: .42s ease;
 cursor: pointer;
+margin-right: 50px;
 }
 .images h4:hover{
   color: orange;
