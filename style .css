@@ -69,6 +69,7 @@ header{
   background: #ffd4cf;
   /* height: 100vh; */
   height: auto;
+  padding: 5% 6%;
 }
 .first{
  width: 50%;
@@ -81,20 +82,22 @@ header{
  padding: 1.2rem;
 }
 
+
 .first-p{
   margin-top: 2rem;
-  font-size: 1.5rem;
+  font-size: .8rem;
   padding: 1.3rem;
-  font-family:Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
 .first-one img{
   width: 50%;
   /*height: 100%;*/
-  margin-left: 4rem;
+  margin-left: 12rem;
   font-size: 5rem;
 }
 .just-one{
   margin-top: 40px;
+  margin-left: 6rem;
 }
 .btn{
   background: #0000ff;  
@@ -105,7 +108,6 @@ header{
   border-radius: 1rem;
   border: none;
   transition: 0.2s linear;
-  margin: 3rem 10px;
   margin-left: 1.2rem;
 }
 .span{
